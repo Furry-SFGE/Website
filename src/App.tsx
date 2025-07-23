@@ -307,8 +307,11 @@ function App() {
                     <p className="mt-4 text-lg tracking-tight text-amber-900">想要来帮助我们一起筹办一个专属于 Furry 的年度盛会吗？还是想要与我们共同合作？向下方邮箱发送邮件告诉我们吧 OvO</p>
                   </div>
                   <div className="flex flex-col items-center justify-center">
-                    <h3 className="text-lg font-semibold tracking-tight text-amber-900">向下方邮件发送您的加入/合作请求</h3>
-                    <span className="text-lg font-semibold tracking-tight text-amber-900">↓</span>
+                    <h3 className="text-lg font-semibold tracking-tight text-amber-900">官方群：1002462944</h3>
+                    <h3 className="text-lg font-semibold tracking-tight text-amber-900">一群：2155022515</h3>
+                    <h3 className="text-lg font-semibold tracking-tight text-amber-900">二群：1002092085</h3>
+                    <h3 className="text-lg font-semibold tracking-tight text-amber-900">三群：1002794050</h3>
+                    <h3 className="text-lg mt-3 font-semibold tracking-tight text-amber-900">向下方邮件发送您的加入/合作请求↓</h3>
                     <p className="text-slate-500 mt-2">contact@syfest.top</p>
                   </div>
                 </div>
