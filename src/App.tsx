@@ -98,7 +98,7 @@ function App() {
                   <p>兽跃盛典（SYFest，亦称 SYF）是一个由兽跃盛典管理层筹办的非盈利性专为 Furry 亚文化举办的年度盛会</p>
                   <p>所有 Furry 爱好者们都可以在这里提交自己的作品，我们将会在 Bilbili 等官方授权平台进行直播</p>
                 </div>
-                <a className="inline-flex justify-center rounded-2xl bg-amber-600 p-4 text-base font-semibold text-white hover:bg-amber-500 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-amber-500 active:text-white/70 mt-10 w-full sm:hidden" href="#">
+                <a className="inline-flex justify-center rounded-2xl bg-amber-600 p-4 text-base font-semibold text-white hover:bg-amber-500 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-amber-500 active:text-white/70 mt-10 w-full sm:hidden" href="mailto:submit@syfest.top">
                   提交你的作品
                 </a>
                 <dl className="mt-10 grid grid-cols-2 gap-x-10 gap-y-6 sm:mt-16 sm:gap-x-16 sm:gap-y-10 sm:text-center lg:auto-cols-auto lg:grid-flow-col lg:grid-cols-none lg:justify-start lg:text-left">
