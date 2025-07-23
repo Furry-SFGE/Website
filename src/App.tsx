@@ -218,7 +218,8 @@ function App() {
                   <div>
                     <ol role="list" className="space-y-8 bg-white/60 px-10 py-14 text-center shadow-xl shadow-amber-900/5 backdrop-blur-sm">
                       {
-                        data.schedule[selectedTab2].item.map((item: any, index: number) => {
+                        data.schedule[selectedTab2].item.length > 0 ?
+                        (data.schedule[selectedTab2].item.map((item: any, index: number) => {
                           return (
                             <li aria-label={item.name}>
                               {index > 0 ? (<div className="mx-auto mb-8 h-px w-48 bg-amber-500/10"></div>) : null}
@@ -227,7 +228,9 @@ function App() {
                               <p className="mt-1 text-sm text-slate-500">{item.time}</p>
                             </li>
                           );
-                        })
+                        }))
+                        :
+                        (<span className="text-xl text-slate-500">敬请期待...</span>)
                       }
                     </ol>
                   </div>
@@ -276,7 +279,7 @@ function App() {
                 {
                   data.sponsors.cop.map((sponsor: any, index: number) => {
                     return (
-                      <div key={index} className="flex items-center justify-centerr">
+                      <div key={index} className="flex items-center justify-center">
                         <img src={sponsor} />
                       </div>
                     );
