@@ -76,7 +76,7 @@ function App() {
               </div>
             </div>
             <div className="hidden sm:mt-10 sm:flex lg:mt-0 lg:grow lg:basis-0 lg:justify-end">
-              <a className="inline-flex justify-center rounded-2xl bg-amber-600 p-4 text-base font-semibold text-white hover:bg-amber-500 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-amber-500 active:text-white/70" href="mailto:submit@syfest.com">
+              <a className="inline-flex justify-center rounded-2xl bg-amber-600 p-4 text-base font-semibold text-white hover:bg-amber-500 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-amber-500 active:text-white/70" href="mailto:submit@syfest.top">
                 提交您的作品
               </a>
             </div>
