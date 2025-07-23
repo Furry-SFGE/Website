@@ -54,7 +54,7 @@ function App() {
       .then((data) => {
         setData(data);
       });
-  });
+  }, [setData]);
 
   return (
     <>
